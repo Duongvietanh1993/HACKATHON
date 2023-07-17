@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial,sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100rem;
+    background: linear-gradient(180deg,red,orangered);
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+}
+header h1{
+    color: white;
+    text-shadow: 3px 3px 3px #232323;
+    text-transform: uppercase;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+header input{
+    font-size: 1.2rem;
+    width: 25rem;
+    padding: 7px;
+    border-radius: 5px;
+}
+header button{
+    font-size: 1.4rem;
+    padding: 5px;
+    border-radius: 5px;
+    color: red;
+}
+header a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+}
+main{
+    width: 100rem;
+
+}
+main .dots a{
+    color: #b6b6b6;
+}
+main nav{
+    background: white;
+    height: 15.5rem;
+    padding: 5px;
+}
+main .top{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-bottom: 2px solid #cecece;
+}
+main nav h3{
+    margin: 10px 0;
+}
+main ul{
+    list-style: none;
+}
+main .list .red{
+    color: red;
+}
+main .main_body a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: black;
+}
+main .list{
+    display: flex;
+    line-height: 30px;
+    margin: 15px 0;
+}
+main .dots{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+main .main_body{
+    padding: 20px 80px 50px;
+    background: #dedede;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom:4px solid #ff0000;
+}
+main .box{
+    background: #ffffff;
+    width: 14rem;
+    padding: 20px 20px 5px;
+
+}
+main .box img{
+    width: 100%;
+}
+main .box h3{
+    margin: 20px 0 10px;
+}
+main .box .box_red{
+    color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+main .box .box_red a{
+    color: red;
+}
+main .sell{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 5px;
+}
+main .location{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 5px;
+    color: #5b5b5b;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    width: 1600px;
+    background: #dedede;
+    padding: 40px 30px;
+    border-bottom: 4px solid black;
+}
+footer .text h3{
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+footer .text p{
+    color: #5b5b5b;
+    margin: 5px 0;
+}
+footer ._red p{
+    color: rgba(255, 0, 0, 0.63);
+}
+@media screen and (max-width: 600px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100rem;
+        background: linear-gradient(180deg,red,orangered);
+        padding: 1.5rem 2.5rem;
+        margin-bottom: 3rem;
+    }
+    header h1{
+        color: white;
+        text-shadow: 3px 3px 3px #232323;
+        text-transform: uppercase;
+    }
+    header ul{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        gap: 1.2rem;
+        flex-direction: column;
+        margin: 1rem;
+    }
+    header input{
+        font-size: 1.2rem;
+        width: 25rem;
+        padding: 7px;
+        border-radius: 5px;
+    }
+    header button{
+        font-size: 1.4rem;
+        padding: 5px;
+        border-radius: 5px;
+        color: red;
+    }
+    header a{
+        text-decoration: none;
+        font-size: 1.1rem;
+        color: white;
+    }
+    main{
+        width: 100rem;
+
+    }
+    main .dots a{
+        color: #b6b6b6;
+    }
+    main nav{
+        background: white;
+        height: 15.5rem;
+        padding: 5px;
+        width: 30rem;
+    }
+    main .top{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        border-bottom: 2px solid #cecece;
+    }
+    main nav h3{
+        margin: 10px 0;
+    }
+    main ul{
+        list-style: none;
+    }
+    main .list .red{
+        color: red;
+    }
+    main .main_body a{
+        text-decoration: none;
+        font-size: 1.1rem;
+        color: black;
+    }
+    main .list{
+        display: flex;
+        line-height: 30px;
+        margin: 15px 0;
+    }
+    main .dots{
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+    main .main_body{
+        padding: 20px 0 50px;
+        background: #c9c9c9;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border-bottom:4px solid #ff0000;
+    }
+    main .box{
+        background: #ffffff;
+        width: 30rem;
+        padding: 20px 20px 5px;
+        margin: 10px;
+
+    }
+    main .box img{
+        width: 100%;
+    }
+    main .box h3{
+        margin: 20px 0 10px;
+        font-size: 1.4rem;
+        margin: 15px 70px;
+    }
+    main .box .box_red{
+        color: red;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 10px 70px;
+    }
+    main .box .box_red a{
+        color: red;
+    }
+    main .sell{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 15px 70px;
+    }
+    main .location{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px 70px;
+        color: #5b5b5b;
+    }
+    footer{
+        display: flex;
+        gap: 30px;
+        width: 1600px;
+        background: #dedede;
+        padding: 40px 30px;
+        border-bottom: 4px solid black;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .text h3{
+        margin: 10px 0;
+        text-transform: uppercase;
+    }
+    footer .text{
+        width: 200px;
+    }
+    footer .text p{
+        color: #5b5b5b;
+        margin: 5px 0;
+    }
+    footer ._red p{
+        color: rgba(255, 0, 0, 0.63);
+    }
+}
