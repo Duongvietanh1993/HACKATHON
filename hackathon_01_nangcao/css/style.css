@@ -1,140 +1,179 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100rem;
-    background: linear-gradient(180deg,red,orangered);
+    background: linear-gradient(180deg, red, orangered);
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
 }
-header h1{
+
+header h1 {
     color: white;
     text-shadow: 3px 3px 3px #232323;
     text-transform: uppercase;
 }
-header ul{
+
+header ul {
     display: flex;
     list-style: none;
     justify-content: center;
     align-items: center;
     gap: 1.2rem;
 }
-header input{
+
+header input {
     font-size: 1.2rem;
     width: 25rem;
     padding: 7px;
     border-radius: 5px;
 }
-header button{
+
+header button {
     font-size: 1.4rem;
     padding: 5px;
     border-radius: 5px;
     color: red;
 }
-header a{
+header button:hover{
+    color: #0433ff;
+}
+
+header a {
     text-decoration: none;
     font-size: 1.1rem;
     color: white;
 }
-main{
+header a:hover{
+    color: #0433ff;
+}
+
+main {
     width: 100rem;
 
 }
-main .dots a{
+
+main .dots a {
     color: #b6b6b6;
 }
-main nav{
+main .dots a:hover{
+    color: #ea0000;
+}
+
+main nav {
     background: white;
     height: 15.5rem;
     padding: 5px;
 }
-main .top{
+
+main .top {
     display: flex;
     align-items: center;
     gap: 5px;
     border-bottom: 2px solid #cecece;
 }
-main nav h3{
+
+main nav h3 {
     margin: 10px 0;
 }
-main ul{
+
+main ul {
     list-style: none;
 }
-main .list .red{
+
+main .list .red {
     color: red;
 }
-main .main_body a{
+main .list li a:hover{
+    color: red;
+}
+main .main_body a {
     text-decoration: none;
     font-size: 1.1rem;
     color: black;
 }
-main .list{
+
+main .list {
     display: flex;
     line-height: 30px;
     margin: 15px 0;
 }
-main .dots{
+
+main .dots {
     display: flex;
     justify-content: center;
     gap: 5px;
     margin-bottom: 10px;
 }
-main .main_body{
+
+main .main_body {
     padding: 20px 80px 50px;
     background: #dedede;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border-bottom:4px solid #ff0000;
+    border-bottom: 4px solid #ff0000;
 }
-main .box{
+
+main .box {
     background: #ffffff;
     width: 14rem;
     padding: 20px 20px 5px;
 
 }
-main .box img{
+
+main .box img {
     width: 100%;
 }
-main .box h3{
+
+main .box h3 {
     margin: 20px 0 10px;
 }
-main .box .box_red{
+
+main .box .box_red {
     color: red;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 10px 0;
 }
-main .box .box_red a{
+
+main .box .box_red a {
     color: red;
 }
-main .sell{
+main .box .box_red a:hover{
+    color: #0433ff;
+}
+main .sell {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 15px 5px;
 }
-main .location{
+
+main .location {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0px 5px;
     color: #5b5b5b;
 }
-footer{
+
+footer {
     display: flex;
     justify-content: space-evenly;
     gap: 30px;
@@ -143,34 +182,40 @@ footer{
     padding: 40px 30px;
     border-bottom: 4px solid black;
 }
-footer .text h3{
+
+footer .text h3 {
     margin: 10px 0;
     text-transform: uppercase;
 }
-footer .text p{
+
+footer .text p {
     color: #5b5b5b;
     margin: 5px 0;
 }
-footer ._red p{
+
+footer ._red p {
     color: rgba(255, 0, 0, 0.63);
 }
-@media screen and (max-width: 600px){
-    header{
+
+@media screen and (max-width: 600px) {
+    header {
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
         width: 100rem;
-        background: linear-gradient(180deg,red,orangered);
+        background: linear-gradient(180deg, red, orangered);
         padding: 1.5rem 2.5rem;
         margin-bottom: 3rem;
     }
-    header h1{
+
+    header h1 {
         color: white;
         text-shadow: 3px 3px 3px #232323;
         text-transform: uppercase;
     }
-    header ul{
+
+    header ul {
         display: flex;
         list-style: none;
         justify-content: center;
@@ -179,115 +224,137 @@ footer ._red p{
         flex-direction: column;
         margin: 1rem;
     }
-    header input{
+
+    header input {
         font-size: 1.2rem;
         width: 25rem;
         padding: 7px;
         border-radius: 5px;
     }
-    header button{
+
+    header button {
         font-size: 1.4rem;
         padding: 5px;
         border-radius: 5px;
         color: red;
     }
-    header a{
+
+    header a {
         text-decoration: none;
         font-size: 1.1rem;
         color: white;
     }
-    main{
+
+    main {
         width: 100rem;
 
     }
-    main .dots a{
+
+    main .dots a {
         color: #b6b6b6;
     }
-    main nav{
+
+    main nav {
         background: white;
         height: 15.5rem;
         padding: 5px;
         width: 30rem;
     }
-    main .top{
+
+    main .top {
         display: flex;
         align-items: center;
         gap: 5px;
         border-bottom: 2px solid #cecece;
     }
-    main nav h3{
+
+    main nav h3 {
         margin: 10px 0;
     }
-    main ul{
+
+    main ul {
         list-style: none;
     }
-    main .list .red{
+
+    main .list .red {
         color: red;
     }
-    main .main_body a{
+
+    main .main_body a {
         text-decoration: none;
         font-size: 1.1rem;
         color: black;
     }
-    main .list{
+
+    main .list {
         display: flex;
         line-height: 30px;
         margin: 15px 0;
     }
-    main .dots{
+
+    main .dots {
         display: flex;
         justify-content: center;
         gap: 5px;
         margin-bottom: 10px;
     }
-    main .main_body{
+
+    main .main_body {
         padding: 20px 0 50px;
         background: #c9c9c9;
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        border-bottom:4px solid #ff0000;
+        border-bottom: 4px solid #ff0000;
     }
-    main .box{
+
+    main .box {
         background: #ffffff;
         width: 30rem;
         padding: 20px 20px 5px;
         margin: 10px;
 
     }
-    main .box img{
+
+    main .box img {
         width: 100%;
     }
-    main .box h3{
+
+    main .box h3 {
         margin: 20px 0 10px;
         font-size: 1.4rem;
         margin: 15px 70px;
     }
-    main .box .box_red{
+
+    main .box .box_red {
         color: red;
         display: flex;
         justify-content: space-around;
         align-items: center;
         margin: 10px 70px;
     }
-    main .box .box_red a{
+
+    main .box .box_red a {
         color: red;
     }
-    main .sell{
+
+    main .sell {
         display: flex;
         align-items: center;
         justify-content: space-between;
         margin: 15px 70px;
     }
-    main .location{
+
+    main .location {
         display: flex;
         align-items: center;
         justify-content: space-between;
         margin: 0px 70px;
         color: #5b5b5b;
     }
-    footer{
+
+    footer {
         display: flex;
         gap: 30px;
         width: 1600px;
@@ -297,18 +364,8 @@ footer ._red p{
         flex-direction: column;
         align-items: center;
     }
-    footer .text h3{
-        margin: 10px 0;
-        text-transform: uppercase;
-    }
-    footer .text{
+
+    footer .text {
         width: 200px;
-    }
-    footer .text p{
-        color: #5b5b5b;
-        margin: 5px 0;
-    }
-    footer ._red p{
-        color: rgba(255, 0, 0, 0.63);
     }
 }
